@@ -35,7 +35,7 @@
         margin-bottom: auto;
     }
 
-    .sub1 {
+    .item1 {
         float: right;
         width: 100px;
         padding: 5px;
@@ -48,7 +48,7 @@
 
     }
 
-    .sub2 {
+    .item2 {
         float: right;
         color: white;
         width: 100px;
@@ -62,7 +62,7 @@
 
     }
 
-    .sub3 {
+    .item3 {
         color: black;
         float: right;
         width: 100px;
