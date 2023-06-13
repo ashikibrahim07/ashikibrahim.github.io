@@ -8,7 +8,7 @@
     }
 
     h1 {
-    margin-bottom: 15px;
+       margin-bottom: 15px;
     text-align: center;
     color: #ff4532;
     font-size: 50px;
@@ -36,6 +36,35 @@
     }
 
     .item1 {
+        color: blue;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+
+    }
+
+    .item2 {
+        color: white;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: brown;
+
+    }
+
+    .item3 {
+        color: black;
         float: right;
         width: 100px;
         padding: 5px;
@@ -48,41 +77,13 @@
 
     }
 
-    .item2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: maroon;
-
-    }
-
-    .item3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-         margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: yellow;
-
-    }
-
     .content {
         padding: 5px;
         border: none;
         background-color: gray;
         font-family: Helvetica;
         color: black;
-        margin: 3px ;
+        margin: 3px;
         height: 150px;
         overflow: auto;
     }
@@ -91,7 +92,7 @@
         width: 90%;
     }
 
-    /*****desktop version*****/
+    /*desktop version*/
     @media (min-width: 992px) {
         .col-lg-4 {
             float: left;
@@ -99,7 +100,7 @@
         }
     }
 
-    /*****tablet version*****/
+    /*tablet version*/
     @media (min-width: 768px) and (max-width: 991px) {
         .col-md-6 {
             float: left;
@@ -116,10 +117,12 @@
         }
     }
 
-    /*****mobile version*****/
+    /*mobile version*/
     @media (max-width: 767px) {
         .col-sm-12 {
             float: left;
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
