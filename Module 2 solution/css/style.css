@@ -1,4 +1,4 @@
-/*basic style*/
+/*****basic style*****/
     * {
         box-sizing: border-box;
     }
@@ -36,6 +36,7 @@
     }
 
     .item1 {
+        color: blue;
         float: right;
         width: 100px;
         padding: 5px;
@@ -44,13 +45,13 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FFB6C1;
+        background-color: maroon;
 
     }
 
     .item2 {
-        float: right;
         color: white;
+        float: right;
         width: 100px;
         padding: 5px;
         margin: -3px -3px 0px;
@@ -58,7 +59,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: #FF0000;
+        background-color: brown;
 
     }
 
@@ -67,12 +68,12 @@
         float: right;
         width: 100px;
         padding: 5px;
-         margin: -3px -3px 0px;
+        margin: -3px -3px 0px;
         border: 3.5px solid black;
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: rgb(223, 212, 121);
+        background-color: pink;
 
     }
 
@@ -82,7 +83,7 @@
         background-color: gray;
         font-family: Helvetica;
         color: black;
-        margin: 3px ;
+        margin: 3px;
         height: 150px;
         overflow: auto;
     }
@@ -103,14 +104,14 @@
     @media (min-width: 768px) and (max-width: 991px) {
         .col-md-6 {
             float: left;
-            width: 50%;
+            width: 30%;
             margin-left: auto;
             margin-right: auto;
         }
 
         .col-md-12 {
             float: left;
-            width: 100%;
+            width: 45.5%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -120,6 +121,6 @@
     @media (max-width: 767px) {
         .col-sm-12 {
             float: left;
-            width: 100%;
+            width: 96%;
         }
     }
