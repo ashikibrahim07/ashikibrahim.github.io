@@ -1,4 +1,4 @@
-var names = new Array();
+var names= new Array();
 names[0]="Yakkov";
 names[1]="Chaikin";
 names[2]="jason";
