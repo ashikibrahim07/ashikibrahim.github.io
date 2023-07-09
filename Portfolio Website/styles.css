@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, #ffc5bb, #fff3b0, #aaffb9);
+	background-size: 400% 400%;
+	animation: gradientAnimation 10s ease infinite;
+}
+@keyframes  gradientAnimation {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: right;
+}
+nav {
+	margin-top: 20px;
+}
+nav a {
+	margin-right: 10px;
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	}
+nav a:hover {
+	color: #333;
+}
+section{
+	padding: 50px;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+form input, 
+form textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+form button {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+form button:hover {
+	background-color: #555;
+}
+.objective {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.academic {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.skills {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.about {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.certificate1 {
+	margin-bottom: 30px;
+	color: blue;
+}
+.certificate2 {
+	margin-bottom: 100px;
+}
+.softskills {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.hobbies {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.languages {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.contact {
+	margin-bottom: 10px;
+	
+}
+.back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px;
+	background-color: #ffffff ;
+	color: gray;
+	text-decoration: none;
+}
+.back-to-top.show {
+	display: inline-block;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
